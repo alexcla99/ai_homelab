@@ -120,7 +120,7 @@ curl 127.0.0.1:11434
 
 Setup remote access to LAN by adding `OLLAMA_HOST=127.0.0.1:11434` to Windows environment variables. Shutdown WSL2 using `wsl --shutdown` then restart Windows.
 
-Start WSL2 using `wsl` then gather ethernet interface IPv4 address using `ifconfig eth0` from Debian terminal.
+Start WSL2 using `wsl -d Debian` then gather ethernet interface IPv4 address using `ifconfig eth0` from Debian terminal.
 
 From Windows Powershell:
 
