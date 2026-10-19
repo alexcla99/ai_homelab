@@ -81,6 +81,8 @@ sudo docker run hello-world
 
 ### Enabling Nvidia GPU support (CDI)
 
+Considering you installed Nvidia GPU drivers on Windows (WARNING: do not install them on WSL2).
+
 Once again from Debian terminal (WSL2):
 
 ```bash
