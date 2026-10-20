@@ -11,3 +11,6 @@ search:
   formats:
     - html
     - json
+
+outgoing:
+  enable_http: true
